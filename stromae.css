@@ -1,0 +1,13 @@
+#burgerMenuSlideBar,
+#burgerMenuToggleTab {
+  background: coral;
+}
+
+.MuiCardHeader-root {
+  background-color: brown;
+  color: white;
+}
+
+.sequence-lunatic {
+  background-color: coral !important;
+}
