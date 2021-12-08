@@ -1,5 +1,6 @@
-/* Fix blue label on rosterForLoop*/
-#main .lunatic-component.outerContainer-RosterForLoop label {
+/* Fix blue label on rosterForLoop and Table*/
+#main .lunatic-component.outerContainer-RosterForLoop label,
+#main .lunatic-component.outerContainer-Table label {
   font-size: 10pt;
   color: #000;
   font-family: "Open Sans", sans-serif;
@@ -40,4 +41,9 @@
   padding: 10px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+#main .lunatic-component table.table-lunatic {
+  table-layout: auto;
+  max-width: 100%;
 }
