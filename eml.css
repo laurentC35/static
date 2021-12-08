@@ -1,34 +1,34 @@
 /* Fix blue label on rosterForLoop*/
-.lunatic-component.outerContainer-RosterForLoop label {
+#main .lunatic-component.outerContainer-RosterForLoop label {
   font-size: 10pt;
   color: #000;
   font-family: "Open Sans", sans-serif;
   line-height: 16px;
 }
 
-.lunatic-loop {
+#main .lunatic-loop {
   border: 1px solid #0d3970;
   background: #e4f0fc;
   padding-bottom: 15px;
 }
 
-.lunatic-loop .loop-component:first-of-type {
+#main .lunatic-loop .loop-component:first-of-type {
   margin-top: 0;
 }
 
-.lunatic-loop .loop-component:first-of-type .declarations-lunatic {
-  padding-left: 30px;
-  color: #0f417a;
+#main .lunatic-loop .loop-component:first-of-type .declarations-lunatic {
+  padding-left: 15px 0px 30px 10px;
 }
 
-.lunatic-loop
+#main
+  .lunatic-loop
   .loop-component:first-of-type
   .declarations-lunatic
   > .declaration-lunatic {
   color: #0f417a;
 }
 
-.lunatic-loop .loop-component:nth-of-type(n + 2) {
+#main .lunatic-loop .loop-component:nth-of-type(n + 2) {
   margin: 0px 15px 10px 15px;
   background: white;
   margin-bottom: 10px;
