@@ -44,6 +44,5 @@
 }
 
 #main .lunatic-component table.table-lunatic {
-  table-layout: auto;
-  max-width: 100%;
+  width: 100%;
 }
